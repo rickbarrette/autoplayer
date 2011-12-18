@@ -1,0 +1,35 @@
+com.TwentyCodes.android.AutoPlayer.AutoPlayerActivity:
+    public static final java.lang.String SETTINGS
+    public static final java.lang.String KEY_APP
+    public static final java.lang.String KEY_VOLUME
+    public static final java.lang.String KEY_CONFIRM
+    public static final java.lang.String KEY_ENABLED
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog:
+    private static final byte PERIOD
+    protected static final int COUNT
+com.TwentyCodes.android.AutoPlayer.HeadPhoneReceiver:
+    private static final java.lang.String TAG
+    private static final java.lang.String LOG
+    private static final java.lang.String MUSIC_VOLUME
+com.TwentyCodes.android.AutoPlayer.R
+com.TwentyCodes.android.AutoPlayer.R$attr
+com.TwentyCodes.android.AutoPlayer.R$drawable
+com.TwentyCodes.android.AutoPlayer.R$id
+com.TwentyCodes.android.AutoPlayer.R$layout
+com.TwentyCodes.android.AutoPlayer.R$string
+com.TwentyCodes.android.exception.ExceptionHandler:
+    private static final java.lang.String MSG_SUBJECT_TAG
+    private static final java.lang.String MSG_BODY
+    protected static final int SIMPLE_NOTFICATION_ID
+    private static final java.lang.String TAG
+    82:87:public ExceptionHandler(android.app.Service)
+com.TwentyCodes.android.exception.ExceptionReportActivity:
+    private static final java.lang.String TAG
+com.TwentyCodes.android.exception.R
+com.TwentyCodes.android.exception.R$attr
+com.TwentyCodes.android.exception.R$drawable
+com.TwentyCodes.android.exception.R$id
+com.TwentyCodes.android.exception.R$layout
+com.TwentyCodes.android.exception.R$string
+com.TwentyCodes.android.exception.Report:
+    111:117:public com.TwentyCodes.android.exception.Report generateReport(org.json.JSONObject)

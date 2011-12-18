@@ -1,0 +1,106 @@
+com.TwentyCodes.android.AutoPlayer.AutoPlayerActivity -> com.TwentyCodes.android.AutoPlayer.AutoPlayerActivity:
+    android.content.SharedPreferences mSettings -> a
+    android.widget.ImageView mAppIcon -> b
+    android.app.ProgressDialog mProgress -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.TwentyCodes.android.AutoPlayer.BootReceiver -> com.TwentyCodes.android.AutoPlayer.BootReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog -> com.TwentyCodes.android.AutoPlayer.ConfirmDialog:
+    android.media.AudioManager mAudioManager -> a
+    android.content.SharedPreferences mSettings -> b
+    android.widget.ProgressBar mProgressBar -> c
+    android.os.Handler mHandler -> d
+    java.lang.Thread mTimer -> e
+    void onClick(android.view.View) -> onClick
+    void onCreate(android.os.Bundle) -> onCreate
+    android.os.Handler access$0(com.TwentyCodes.android.AutoPlayer.ConfirmDialog) -> a
+    android.content.SharedPreferences access$1(com.TwentyCodes.android.AutoPlayer.ConfirmDialog) -> b
+    android.media.AudioManager access$2(com.TwentyCodes.android.AutoPlayer.ConfirmDialog) -> c
+    void access$3$243a77b3(com.TwentyCodes.android.AutoPlayer.ConfirmDialog,int) -> a
+    android.widget.ProgressBar access$4(com.TwentyCodes.android.AutoPlayer.ConfirmDialog) -> d
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog$1 -> com.TwentyCodes.android.AutoPlayer.c:
+    com.TwentyCodes.android.AutoPlayer.ConfirmDialog this$0 -> a
+    void run() -> run
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog$1$1 -> com.TwentyCodes.android.AutoPlayer.a:
+    com.TwentyCodes.android.AutoPlayer.ConfirmDialog$1 this$1 -> a
+    void run() -> run
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog$2 -> com.TwentyCodes.android.AutoPlayer.b:
+    com.TwentyCodes.android.AutoPlayer.ConfirmDialog this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.TwentyCodes.android.AutoPlayer.HeadPhoneReceiver -> com.TwentyCodes.android.AutoPlayer.HeadPhoneReceiver:
+    android.media.AudioManager mAudioManager -> a
+    android.content.SharedPreferences mSettings -> b
+    android.content.Context mContext -> c
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void setStreamVolume$255f295(int) -> a
+com.TwentyCodes.android.AutoPlayer.HeadphoneListenerService -> com.TwentyCodes.android.AutoPlayer.HeadphoneListenerService:
+    void onCreate() -> onCreate
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+com.TwentyCodes.android.exception.ExceptionHandler -> com.TwentyCodes.android.exception.f:
+    java.lang.Thread$UncaughtExceptionHandler mDefaultUEH -> a
+    android.app.Activity mApp -> b
+    android.app.Service mService -> c
+    android.content.BroadcastReceiver mBroadcastReceiver -> d
+    android.content.Context mContext -> e
+    com.TwentyCodes.android.exception.Report mReport -> f
+    java.lang.String mURL -> g
+    java.lang.String mEmail -> h
+    void displayEmailNotification() -> a
+    void displayNotification(android.content.Intent) -> a
+    void parseProperties() -> b
+    void run() -> run
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.TwentyCodes.android.exception.ExceptionReportActivity -> com.TwentyCodes.android.exception.ExceptionReportActivity:
+    com.TwentyCodes.android.exception.Report mReport -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onClick(android.view.View) -> onClick
+    com.TwentyCodes.android.exception.Report access$0(com.TwentyCodes.android.exception.ExceptionReportActivity) -> a
+com.TwentyCodes.android.exception.ExceptionReportActivity$1 -> com.TwentyCodes.android.exception.e:
+    com.TwentyCodes.android.exception.ExceptionReportActivity this$0 -> a
+    android.app.ProgressDialog val$progress -> b
+    void run() -> run
+com.TwentyCodes.android.exception.Report -> com.TwentyCodes.android.exception.Report:
+    java.lang.String mUrl -> a
+    java.util.ArrayList mReport -> b
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int describeContents() -> describeContents
+    java.lang.String file() -> a
+    com.TwentyCodes.android.exception.Report generateReport(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    java.util.ArrayList getNameValuePairs() -> c
+    java.util.ArrayList getReport() -> b
+    com.TwentyCodes.android.exception.Report setDescription(java.lang.String) -> a
+    java.lang.String toString() -> toString
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+com.TwentyCodes.android.exception.Report$1 -> com.TwentyCodes.android.exception.b:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.TwentyCodes.android.exception.ReportAdapter -> com.TwentyCodes.android.exception.c:
+    java.util.ArrayList mReport -> a
+    android.view.LayoutInflater mInflater -> b
+    int getCount() -> getCount
+    org.apache.http.NameValuePair getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.TwentyCodes.android.exception.ReportAdapter$ViewHolder -> com.TwentyCodes.android.exception.d:
+    android.widget.TextView title -> a
+    android.widget.TextView body -> b
+    com.TwentyCodes.android.exception.ReportAdapter this$0 -> c
+com.TwentyCodes.android.exception.ReportItem -> com.TwentyCodes.android.exception.ReportItem:
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    java.lang.String mKey -> a
+    java.lang.String mValue -> b
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    java.lang.String getKey() -> a
+    java.lang.String getValue() -> b
+com.TwentyCodes.android.exception.ReportItem$1 -> com.TwentyCodes.android.exception.a:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray

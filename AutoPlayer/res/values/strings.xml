@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AutoPlayerActivity!</string>
+    <string name="app_name">AutoPlayer</string>
+    <string name="music_volume">Music Volume</string>
+    <string name="pick_an_activity">Pick an Activity</string>
+    <string name="loading">Loading...</string>
+    <string name="about">Welcome to AutoPlayer \n\n
+
+AutoPlayer allows you to program your Android powered device to start a specific application and set the music volume level upon plugging in your headphones, speakers, ect.\n\n
+
+To start, simply select which application you want to start, and set your desired volume level. The next time you plug something into your headphone jack, AutoPlayer will apply your desired settings.\n\n</string>
+    <string name="enable">Enable</string>
+    <string name="confirm">Use Confirmation Dialog</string>
+    <string name="start">Starting...</string>
+    <string name="version">Version</string>
+    <string name="build">build</string>
+
+</resources>

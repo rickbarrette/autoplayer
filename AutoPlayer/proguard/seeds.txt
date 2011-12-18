@@ -1,0 +1,10 @@
+com.TwentyCodes.android.exception.ExceptionReportActivity
+com.TwentyCodes.android.AutoPlayer.ConfirmDialog
+com.TwentyCodes.android.AutoPlayer.AutoPlayerActivity
+com.TwentyCodes.android.AutoPlayer.HeadphoneListenerService
+com.TwentyCodes.android.AutoPlayer.HeadPhoneReceiver
+com.TwentyCodes.android.AutoPlayer.BootReceiver
+com.TwentyCodes.android.exception.ReportItem
+com.TwentyCodes.android.exception.ReportItem: android.os.Parcelable$Creator CREATOR
+com.TwentyCodes.android.exception.Report
+com.TwentyCodes.android.exception.Report: android.os.Parcelable$Creator CREATOR
