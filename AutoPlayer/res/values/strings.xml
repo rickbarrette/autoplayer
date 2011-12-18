@@ -4,7 +4,7 @@
     <string name="hello">Hello World, AutoPlayerActivity!</string>
     <string name="app_name">AutoPlayer</string>
     <string name="music_volume">Music Volume</string>
-    <string name="pick_an_activity">Pick an Activity</string>
+    <string name="pick_an_activity">Pick an Application</string>
     <string name="loading">Loading...</string>
     <string name="about">Welcome to AutoPlayer \n\n
 
