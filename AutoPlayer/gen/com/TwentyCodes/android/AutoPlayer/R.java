@@ -39,21 +39,23 @@ public final class R {
         public static final int main=0x7f030004;
     }
     public static final class string {
-        public static final int about=0x7f04000b;
-        public static final int app_name=0x7f040007;
-        public static final int build=0x7f04000f;
-        public static final int confirm=0x7f04000d;
+        public static final int about=0x7f04000d;
+        public static final int app_name=0x7f040009;
+        public static final int build=0x7f040011;
+        public static final int confirm=0x7f04000f;
         public static final int crash=0x7f040000;
         public static final int description=0x7f040004;
-        public static final int enable=0x7f04000c;
-        public static final int hello=0x7f040006;
-        public static final int loading=0x7f04000a;
-        public static final int music_volume=0x7f040008;
-        public static final int pick_an_activity=0x7f040009;
+        public static final int enable=0x7f04000e;
+        public static final int hello=0x7f040008;
+        public static final int loading=0x7f04000c;
+        public static final int music_volume=0x7f04000a;
+        public static final int no_reports=0x7f040006;
+        public static final int pick_an_activity=0x7f04000b;
         public static final int send=0x7f040003;
         public static final int sending=0x7f040002;
+        public static final int sending_report=0x7f040007;
         public static final int sorry=0x7f040001;
-        public static final int start=0x7f04000e;
+        public static final int start=0x7f040010;
         public static final int version=0x7f040005;
     }
 }
