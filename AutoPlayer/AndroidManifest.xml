@@ -49,6 +49,9 @@
             android:launchMode="singleInstance"
             android:theme="@style/MyDialogTheme" >
         </activity>
+
+        <service android:name="com.TwentyCodes.android.exception.ReportPostingService" >
+        </service>
     </application>
 
 </manifest>
