@@ -56,7 +56,7 @@ public class HeadPhoneReceiver extends BroadcastReceiver {
 
 						//Perform user's settings
 						if(mSettings.getBoolean(AutoPlayerActivity.KEY_CONFIRM, false))
-							context.startActivity(new Intent(context, ConfirmDialog.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+							context.startActivity(new Intent(context, ConfirmDialog.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK  | Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS));
 						else
 							applySettings();
 					}
